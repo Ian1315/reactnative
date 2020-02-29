@@ -1,0 +1,10 @@
+ <View style={styles.colone}>
+                        <Image style={styles.image} source={{uri: this.props.navigation.state.params.images}}/>
+                    </View>
+                    <View style={styles.colone}>
+                        <Text style = {styles.text}> Titre du cours : {this.props.navigation.state.params.titre}</Text>
+                        <Text style = {styles.prof}> Nom du prof : {this.props.navigation.state.params.prof}</Text>
+                    </View>
+                </View>
+                <View style = {styles.desdes}>
+                    <Text style = {styles.description}> {this.props.navigation.state.params.description} </Text>
