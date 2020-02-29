@@ -73,7 +73,7 @@ class CoursDetails extends Component {
                         }
                     </View>
 
-                    <View >
+                    <View >//la liste des cours ajoutée
                         <Text style = {styles.textListe}> Les ID des Cours Favoris</Text>
                         <FlatList
                         data = {this.state.liste}
